@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Meta Information -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Bella Vista Bistro - Experience culinary excellence in the heart of the city. Fresh ingredients, bold flavors, and unforgettable moments await.">
@@ -13,40 +14,44 @@
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="images/favicon.png">
     
-    <!-- Google Fonts -->
+    <!-- External Resources -->
+    <!-- Google Fonts: Playfair Display for headings, Inter for body text -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
     
-    <!-- Font Awesome -->
+    <!-- Font Awesome Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     
-    <!-- Custom CSS -->
+    <!-- Custom Styles -->
     <link rel="stylesheet" href="css/styles.css">
     
-    <!-- Open Graph Meta Tags -->
+    <!-- Social Media Meta Tags -->
+    <!-- Open Graph Tags for Facebook/LinkedIn -->
     <meta property="og:title" content="Bella Vista Bistro | Modern Casual Fine Dining">
     <meta property="og:description" content="Experience culinary excellence in the heart of the city. Fresh ingredients, bold flavors, and unforgettable moments await.">
     <meta property="og:image" content="images/og-image.jpg">
     <meta property="og:url" content="https://bellavistabistro.com">
     <meta property="og:type" content="website">
     
-    <!-- Twitter Card Meta Tags -->
+    <!-- Twitter Card Tags -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Bella Vista Bistro | Modern Casual Fine Dining">
     <meta name="twitter:description" content="Experience culinary excellence in the heart of the city. Fresh ingredients, bold flavors, and unforgettable moments await.">
     <meta name="twitter:image" content="images/og-image.jpg">
 </head>
 <body>
-    <!-- Header Section -->
+    <!-- Header Section: Fixed navigation with transparent to glass effect on scroll -->
     <header class="header">
         <nav class="nav-container">
             <div class="logo">Bella Vista</div>
+            <!-- Hamburger menu for mobile -->
             <button class="mobile-menu-toggle" aria-label="Toggle navigation menu">
                 <span></span>
                 <span></span>
                 <span></span>
             </button>
+            <!-- Main Navigation -->
             <ul class="nav-links">
                 <li><a href="#home" class="active">Home</a></li>
                 <li><a href="#menu">Menu</a></li>
@@ -58,35 +63,316 @@
 
     <!-- Main Content Sections -->
     <main>
-        <!-- Hero Section -->
+        <!-- Hero Section: Full-screen landing with parallax background -->
         <section id="home" class="hero">
-            <!-- Hero content will be added here -->
+            <div class="hero-background"></div>
+            <div class="hero-content">
+                <div class="container">
+                    <h1 class="hero-title fade-in">Bella Vista Bistro</h1>
+                    <p class="hero-subtitle fade-in">Experience culinary excellence in the heart of the city. Fresh ingredients, bold flavors, and unforgettable moments await.</p>
+                    <a href="#menu" class="btn btn-primary hero-cta fade-in">Explore Our Menu</a>
+                </div>
+            </div>
         </section>
 
-        <!-- Featured Dishes Section -->
-        <section id="featured" class="featured">
-            <!-- Featured dishes content will be added here -->
+        <!-- Featured Dishes Section: Showcase of signature items -->
+        <section id="featured" class="featured bg-light">
+            <div class="container">
+                <div class="section-header text-center fade-in">
+                    <h2>Featured Dishes</h2>
+                    <p>Discover our chef's carefully curated selection of signature dishes, each crafted with passion and the finest ingredients.</p>
+                </div>
+                <!-- Featured Dishes Grid: Responsive card layout -->
+                <div class="featured-grid">
+                    <!-- Featured Item 1: Truffle Risotto -->
+                    <div class="featured-card fade-in">
+                        <div class="featured-image">
+                            <img src="https://images.unsplash.com/photo-1476124369491-e7addf5db371?w=400&h=300&fit=crop" alt="Truffle Risotto">
+                        </div>
+                        <div class="featured-content">
+                            <h3>Truffle Risotto</h3>
+                            <p>Creamy arborio rice with wild mushrooms, finished with truffle oil and parmesan</p>
+                            <span class="price">$28</span>
+                        </div>
+                    </div>
+                    <!-- Featured Item 2: Pan-Seared Salmon -->
+                    <div class="featured-card fade-in">
+                        <div class="featured-image">
+                            <img src="https://images.unsplash.com/photo-1467003909585-2f8a72700288?w=400&h=300&fit=crop" alt="Pan-Seared Salmon">
+                        </div>
+                        <div class="featured-content">
+                            <h3>Pan-Seared Salmon</h3>
+                            <p>Atlantic salmon with roasted vegetables and lemon herb butter</p>
+                            <span class="price">$32</span>
+                        </div>
+                    </div>
+                    <!-- Featured Item 3: Raspberry Layer Cake -->
+                    <div class="featured-card fade-in">
+                        <div class="featured-image">
+                            <img src="https://images.unsplash.com/photo-1565958011703-44f9829ba187?w=400&h=300&fit=crop" alt="Raspberry Layer Cake">
+                        </div>
+                        <div class="featured-content">
+                            <h3>Raspberry Layer Cake</h3>
+                            <p>Delicate vanilla cake layers with fresh raspberry cream, topped with berries and mint</p>
+                            <span class="price">$12</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
 
-        <!-- About Section -->
-        <section id="about" class="about">
-            <!-- About content will be added here -->
+        <!-- About Section: Restaurant story and ambiance -->
+        <section id="about" class="about bg-white">
+            <div class="container">
+                <div class="about-content">
+                    <div class="about-text fade-in">
+                        <h2>Our Story</h2>
+                        <p>Founded in 2018, Bella Vista Bistro has been a cornerstone of fine dining in the city. Our passion for exceptional cuisine and warm hospitality has made us a favorite destination for food lovers.</p>
+                        <p>Led by Chef Marco Rossi, our culinary team crafts each dish with meticulous attention to detail, using only the finest locally-sourced ingredients. We believe that great food brings people together, creating memories that last a lifetime.</p>
+                        <p>Our elegant yet comfortable atmosphere provides the perfect setting for intimate dinners, business lunches, and special celebrations. Every visit to Bella Vista is designed to be an extraordinary culinary journey.</p>
+                    </div>
+                    <div class="about-image fade-in">
+                        <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=600&h=400&fit=crop" alt="Bella Vista Bistro Interior">
+                    </div>
+                </div>
+            </div>
         </section>
 
-        <!-- Menu Section -->
-        <section id="menu" class="menu">
-            <!-- Menu content will be added here -->
+        <!-- Menu Section: Interactive menu with category filtering -->
+        <section id="menu" class="menu bg-light">
+            <div class="container">
+                <div class="section-header text-center fade-in">
+                    <h2>Our Menu</h2>
+                    <p>Explore our diverse menu featuring classic favorites and innovative creations</p>
+                </div>
+                <!-- Menu Filter Buttons -->
+                <div class="menu-filters fade-in">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="appetizers">Appetizers</button>
+                    <button class="filter-btn" data-filter="main-courses">Main Courses</button>
+                    <button class="filter-btn" data-filter="desserts">Desserts</button>
+                    <button class="filter-btn" data-filter="beverages">Beverages</button>
+                </div>
+                <!-- Menu Items Grid: Dynamically filtered -->
+                <div class="menu-grid">
+                    <!-- Appetizers -->
+                    <div class="menu-item" data-category="appetizers">
+                        <div class="menu-item-content">
+                            <div class="menu-item-header">
+                                <h3>Burrata Caprese</h3>
+                                <span class="price">$16</span>
+                            </div>
+                            <p>Fresh burrata cheese with heirloom tomatoes, basil, and balsamic reduction</p>
+                        </div>
+                    </div>
+                    <div class="menu-item" data-category="appetizers">
+                        <div class="menu-item-content">
+                            <div class="menu-item-header">
+                                <h3>Tuna Tartare</h3>
+                                <span class="price">$18</span>
+                            </div>
+                            <p>Sesame-crusted tuna with avocado, cucumber, and ponzu dressing</p>
+                        </div>
+                    </div>
+                    <div class="menu-item" data-category="appetizers">
+                        <div class="menu-item-content">
+                            <div class="menu-item-header">
+                                <h3>Crispy Calamari</h3>
+                                <span class="price">$14</span>
+                            </div>
+                            <p>Golden fried squid rings with marinara sauce and lemon aioli</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Main Courses -->
+                    <div class="menu-item" data-category="main-courses">
+                        <div class="menu-item-content">
+                            <div class="menu-item-header">
+                                <h3>Ribeye Steak</h3>
+                                <span class="price">$42</span>
+                            </div>
+                            <p>12oz prime cut with roasted garlic mashed potatoes and seasonal vegetables</p>
+                        </div>
+                    </div>
+                    <div class="menu-item" data-category="main-courses">
+                        <div class="menu-item-content">
+                            <div class="menu-item-header">
+                                <h3>Lobster Thermidor</h3>
+                                <span class="price">$48</span>
+                            </div>
+                            <p>Fresh lobster tail with cream sauce, gruyere cheese, and herb rice</p>
+                        </div>
+                    </div>
+                    <div class="menu-item" data-category="main-courses">
+                        <div class="menu-item-content">
+                            <div class="menu-item-header">
+                                <h3>Duck Confit</h3>
+                                <span class="price">$36</span>
+                            </div>
+                            <p>Slow-cooked duck leg with cherry gastrique and wild rice pilaf</p>
+                        </div>
+                    </div>
+                    <div class="menu-item" data-category="main-courses">
+                        <div class="menu-item-content">
+                            <div class="menu-item-header">
+                                <h3>Seafood Paella</h3>
+                                <span class="price">$34</span>
+                            </div>
+                            <p>Traditional Spanish rice with mussels, shrimp, calamari, and saffron</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Desserts -->
+                    <div class="menu-item" data-category="desserts">
+                        <div class="menu-item-content">
+                            <div class="menu-item-header">
+                                <h3>Tiramisu</h3>
+                                <span class="price">$10</span>
+                            </div>
+                            <p>Classic Italian dessert with coffee-soaked ladyfingers and mascarpone</p>
+                        </div>
+                    </div>
+                    <div class="menu-item" data-category="desserts">
+                        <div class="menu-item-content">
+                            <div class="menu-item-header">
+                                <h3>Crème Brûlée</h3>
+                                <span class="price">$12</span>
+                            </div>
+                            <p>Vanilla custard with caramelized sugar crust and fresh berries</p>
+                        </div>
+                    </div>
+                    <div class="menu-item" data-category="desserts">
+                        <div class="menu-item-content">
+                            <div class="menu-item-header">
+                                <h3>Chocolate Soufflé</h3>
+                                <span class="price">$14</span>
+                            </div>
+                            <p>Warm chocolate soufflé with vanilla bean ice cream (allow 20 minutes)</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Beverages -->
+                    <div class="menu-item" data-category="beverages">
+                        <div class="menu-item-content">
+                            <div class="menu-item-header">
+                                <h3>Craft Cocktails</h3>
+                                <span class="price">$12-16</span>
+                            </div>
+                            <p>Signature cocktails crafted by our expert mixologists</p>
+                        </div>
+                    </div>
+                    <div class="menu-item" data-category="beverages">
+                        <div class="menu-item-content">
+                            <div class="menu-item-header">
+                                <h3>Wine Selection</h3>
+                                <span class="price">$8-20</span>
+                            </div>
+                            <p>Curated selection of wines from renowned vineyards worldwide</p>
+                        </div>
+                    </div>
+                    <div class="menu-item" data-category="beverages">
+                        <div class="menu-item-content">
+                            <div class="menu-item-header">
+                                <h3>Artisan Coffee</h3>
+                                <span class="price">$4-6</span>
+                            </div>
+                            <p>Premium single-origin coffee beans, expertly roasted and brewed</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
 
-        <!-- Contact Section -->
-        <section id="contact" class="contact">
-            <!-- Contact content will be added here -->
+        <!-- Contact Section: Location info and contact form -->
+        <section id="contact" class="contact bg-white">
+            <div class="container">
+                <div class="contact-content">
+                    <!-- Contact Information -->
+                    <div class="contact-info fade-in">
+                        <h2>Visit Us</h2>
+                        <div class="contact-details">
+                            <!-- Location -->
+                            <div class="contact-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <h4>Location</h4>
+                                <p>123 Culinary Avenue<br>New York, NY 10001</p>
+                            </div>
+                            <!-- Hours -->
+                            <div class="contact-item">
+                                <i class="fas fa-clock"></i>
+                                <h4>Hours</h4>
+                                <p>Mon-Thu: 11am-10pm<br>Fri-Sat: 11am-11pm<br>Sun: 11am-9pm</p>
+                            </div>
+                            <!-- Contact -->
+                            <div class="contact-item">
+                                <i class="fas fa-phone"></i>
+                                <h4>Contact</h4>
+                                <p>Phone: (212) 555-0123<br>Email: info@bellavista.com</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Contact Form -->
+                    <div class="contact-form fade-in">
+                        <h3>Make a Reservation</h3>
+                        <form id="contactForm">
+                            <div class="form-group">
+                                <label for="name">Name *</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email *</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Phone</label>
+                                <input type="tel" id="phone" name="phone">
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message *</label>
+                                <textarea id="message" name="message" rows="4" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
 
-    <!-- Footer Section -->
-    <footer class="footer">
-        <!-- Footer content will be added here -->
+    <!-- Footer Section: Site navigation and social links -->
+    <footer class="footer bg-light">
+        <div class="container">
+            <div class="footer-content">
+                <!-- About Column -->
+                <div class="footer-column">
+                    <h3>About Us</h3>
+                    <p>Bella Vista Bistro offers an unforgettable dining experience with a perfect blend of traditional and contemporary cuisine.</p>
+                </div>
+                <!-- Quick Links -->
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#menu">Menu</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <!-- Social Links -->
+                <div class="footer-column">
+                    <h3>Connect With Us</h3>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!-- Copyright -->
+            <div class="footer-bottom">
+                <p>&copy; 2024 Bella Vista Bistro. All rights reserved.</p>
+            </div>
+        </div>
     </footer>
 
     <!-- Custom JavaScript -->
