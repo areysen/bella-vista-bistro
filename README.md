@@ -152,17 +152,25 @@ bella-vista-bistro/
 
 [Visit Bella Vista Bistro](https://bella-vista-bistro.netlify.app)
 
-## 📸 Screenshots
+## 📸 Website Screenshots
 
-### Desktop View
+All website screenshots can be found in the `images/screenshots` directory.
 
-![Desktop Hero Section](images/desktop-hero.png)
-![Desktop Menu Section](images/desktop-menu.png)
+### Desktop Views
 
-### Mobile View
+| Section      | Screenshot                                                   |
+| ------------ | ------------------------------------------------------------ |
+| Hero Section | ![Desktop Hero Section](images/screenshots/desktop-hero.png) |
+| Menu Section | ![Desktop Menu Section](images/screenshots/desktop-menu.png) |
 
-![Mobile Navigation](images/mobile-nav.png)
-![Mobile Menu Section](images/mobile-menu.png)
+### Mobile Views
+
+| Section      | Screenshot                                                 |
+| ------------ | ---------------------------------------------------------- |
+| Navigation   | ![Mobile Navigation](images/screenshots/mobile-nav.png)    |
+| Menu Section | ![Mobile Menu Section](images/screenshots/mobile-menu.png) |
+
+_Note: These screenshots showcase the responsive design and user interface across different device sizes._
 
 ## 🔧 Development Process
 
@@ -215,4 +223,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Images from [Unsplash](https://unsplash.com)
 - Icons from [Font Awesome](https://fontawesome.com)
 - Fonts from [Google Fonts](https://fonts.google.com)
+
 # Auto-deploy test
